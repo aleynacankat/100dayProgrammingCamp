@@ -75,4 +75,16 @@ print(emptyDictionary)
 
 #Tuples
 
+myListE = [10, "a", "b", 3.14]
+
+print(myListE[0])
+
+myTuple = (10, "a", "b", 3.14)
+
+print(type(myTuple)) #Tupleda içindeki elemanlar değişmez, sadece hangi indexte onu ögrenebilirsin.
+
+#Boolean true ve false yazdirmak anlamina gelir - type'ı booldur
+
+age = input("enter age: ")
+
 
