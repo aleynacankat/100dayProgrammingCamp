@@ -40,4 +40,61 @@ for c in sayilar:
     if (c % 5 == 0):
         print(c)
 
-    
+# method vs function
+
+myName = "aleyna"
+
+myName.upper()
+
+myNameUpper = myName.upper()
+
+print(myNameUpper)
+
+#functions kod bloklarıdır, duzenler
+#girdi alabilir, cikti verebilir
+
+def helloPython():
+    print("hello")
+    print("python")
+
+print(helloPython())
+
+def helloName(name):
+    print("hello")
+    print(name)
+
+print(helloName("aleyna"))
+
+def sumexample(num1,num2):
+    num3 = num1 + num2
+    print(num3)
+
+print(sumexample(20,12))
+
+def helloSurname(surname = "aleyna"):
+    print("hello")
+    print(surname)
+
+print(helloSurname())
+
+#return
+
+def summation(num1,num2,num3):
+    print(num1+num2+num3)
+
+x = summation(10,2,8)
+
+print(type(x))
+
+def Returnsummation(num1, num2, num3):
+    return num1 + num2 + num3
+
+#degerini dondurmesi demek 
+
+def controlString(s):
+    if s[0] == "a":
+        print("a")
+
+print(controlString("aleyna"))
+
+
