@@ -130,3 +130,24 @@ myTrain = Train("myTrain")
 
 myTrain["a"]
 
+age = input("Please enter your age")
+if(int(age) >= 18):
+    print("You are allowed to enter the club")
+else:
+    print("Sorry you are not allowed")
+
+exam_score = input("Enter your exam score")
+if(int(exam_score) > 90):
+    print("You have got grage A++")
+elif(int(exam_score) > 80):
+    print("You have got grade A")
+else:
+    print("You have got grade B") 
+
+knows_javascript = False
+knows_python = True
+
+if(knows_javascript and knows_python): # doesn't depend on value of knows_python
+  print('Javscript or python developer')
+else:
+  print('Some other developer')
